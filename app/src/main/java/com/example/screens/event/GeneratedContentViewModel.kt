@@ -1,5 +1,5 @@
 package com.example.screens.event
-
+import com.example.utils.EncryptionUtils
 import android.app.Application
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.viewModelScope
@@ -131,7 +131,7 @@ class GeneratedContentViewModel(application: Application) : AndroidViewModel(app
 
             val providerName = aiContext.selectedAIProvider
             val modelName = aiContext.selectedAIModel
-            val apiKey = workspace.aiApiKey
+            val apiKey = EncryptionUtils.decrypt(workspace.aiApiKey)
 
             if (providerName.isBlank() || providerName.lowercase() == "none") {
                 _uiState.value = AIContentUiState.Error("Selected AI Provider is unavailable. Please configure AI settings.")
@@ -214,7 +214,7 @@ class GeneratedContentViewModel(application: Application) : AndroidViewModel(app
         viewModelScope.launch {
             try {
                 val workspace = workspaceDao.getWorkspaceById(ctx.workspaceInfo.id)
-                val apiKey = workspace?.aiApiKey
+                val apiKey = EncryptionUtils.decrypt(workspace?.aiApiKey)
                 if (apiKey.isNullOrBlank()) {
                     _isRegeneratingSection.value = null
                     return@launch
