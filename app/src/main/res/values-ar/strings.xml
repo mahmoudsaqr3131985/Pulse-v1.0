@@ -1,0 +1,82 @@
+<resources>
+    <string name="app_name">نبض</string>
+    <string name="app_preferences">تفضيلات التطبيق</string>
+    <string name="theme">المظهر</string>
+    <string name="theme_system">الافتراضي للنظام</string>
+    <string name="theme_light">فاتح</string>
+    <string name="theme_dark">داكن</string>
+    <string name="language">اللغة</string>
+    <string name="language_system">الافتراضي للنظام</string>
+    <string name="language_arabic">العربية</string>
+    <string name="language_english">الإنجليزية</string>
+
+    <string name="ai_context">سياق الذكاء الاصطناعي</string>
+    <string name="view_context_summary">عرض ملخص السياق</string>
+    <string name="validate_context">التحقق من صحة السياق</string>
+    <string name="export_context">تصدير السياق</string>
+    <string name="context_summary">ملخص سياق الذكاء الاصطناعي</string>
+    <string name="context_validation">التحقق من صحة السياق</string>
+    <string name="context_exported">تم تصدير ملف السياق بنجاح</string>
+    <string name="context_valid">سياق الذكاء الاصطناعي صالحة وجاهز للمعالجة.</string>
+    <string name="context_invalid">فشل التحقق من صحة سياق الذكاء الاصطناعي.</string>
+
+    <!-- Phase 12 Strings -->
+    <string name="generate_ai_content">توليد محتوى الذكاء الاصطناعي</string>
+    <string name="generated_content_title">المحتوى المُولد</string>
+    <string name="generating_content">جاري توليد الحزمة الإعلامية...</string>
+    <string name="headline_title">العنوان الرئيسي</string>
+    <string name="facebook_post_title">منشور فيسبوك</string>
+    <string name="short_post_title">منشور قصير (إكس/تيليجرام)</string>
+    <string name="caption_title">شرح الصورة</string>
+    <string name="hashtags_title">الوسوم النشطة (هاشتاج)</string>
+    <string name="news_summary_title">الملخص الإخباري الرسمي</string>
+    <string name="voice_over_script_title">نص التعليق الصوتي</string>
+    <string name="copy_all">نسخ الكل</string>
+    <string name="save_draft">حفظ كمسودة</string>
+    <string name="export_markdown">تصدير كـ Markdown</string>
+    <string name="generate_again">إعادة التوليد</string>
+    <string name="edit_content">تعديل</string>
+    <string name="copy_single">نسخ</string>
+    <string name="regenerate_section">إعادة توليد القسم</string>
+    <string name="api_key_missing">مفتاح API مفقود في إعدادات الذكاء الاصطناعي لمساحة العمل.</string>
+    <string name="provider_unavailable">مزود الذكاء الاصطناعي المختار غير متوفر حالياً.</string>
+    <string name="internet_unavailable">الاتصال بالإنترنت غير متاح.</string>
+    <string name="invalid_response">تم استلام استجابة غير صالحة أو فارغة من الذكاء الاصطناعي.</string>
+    <string name="timeout_error">انتهت مهلة طلب الذكاء الاصطناعي. يرجى المحاولة مرة أخرى.</string>
+    <string name="save_changes">حفظ التعديلات</string>
+
+    <!-- Phase 13 Strings -->
+    <string name="media_center">مركز الوسائط</string>
+    <string name="ideas">الأفكار الذكية</string>
+    <string name="content_details">تفاصيل المحتوى</string>
+    <string name="search_hint">البحث في الفعاليات، المحتوى، الأفكار...</string>
+    <string name="favorites">المفضلة</string>
+    <string name="all">الكل</string>
+    <string name="sort_by">ترتيب حسب</string>
+    <string name="sort_newest">الأحدث أولاً</string>
+    <string name="sort_oldest">الأقدم أولاً</string>
+    <string name="sort_alphabetical">أبجدي (أ-ي)</string>
+    <string name="workspace_filter">تصفية حسب مساحة العمل</string>
+    <string name="no_generated_content">لم يتم العثور على محتوى مُولد في مركز الوسائط.</string>
+    <string name="duplicate">تكرار</string>
+    <string name="delete">حذف</string>
+    <string name="reuse">إعادة استخدام</string>
+    <string name="share">مشاركة</string>
+    <string name="export_format">صيغة التصدير</string>
+    <string name="export_success">تم تصدير المحتوى بنجاح</string>
+    <string name="export_failed">فشل التصدير</string>
+    <string name="backup_metadata">نسخ احتياطي للبيانات محلياً</string>
+    <string name="restore_metadata">استعادة البيانات</string>
+    <string name="backup_success">تم إنشاء النسخة الاحتياطية المحلية بنجاح</string>
+    <string name="backup_failed">فشل إنشاء النسخة الاحتياطية</string>
+    <string name="restore_success">تم استعادة النسخة الاحتياطية المحلية بنجاح</string>
+    <string name="restore_failed">فشلت الاستعادة: لم يتم العثور على نسخة صالحة</string>
+    <string name="app_info">معلومات التطبيق</string>
+    <string name="privacy_info">معلومات الخصوصية</string>
+    <string name="app_info_desc">نبض الإصدار 1.0 هو مساعد ذكاء اصطناعي إعلامي يعمل محلياً بالكامل للمؤسسات، لتنسيق هياكل مساحات العمل، وتحضير الفعاليات، وتوليد المحتوى، وأتمتة الرفع إلى Google Drive.</string>
+    <string name="privacy_info_desc">يأخذ نبض خصوصيتك على محمل الجد. يتم معالجة جميع البيانات وسياقات الذكاء الاصطناعي محلياً وتخزينها بأمان في قاعدة بيانات Room مشفرة. تتم الاتصالات بالشبكة فقط مع مزود الخدمة المختار باستخدام مفتاح API الخاص بك.</string>
+    <string name="ideas_title">مولد الأفكار الذكي</string>
+    <string name="ideas_desc">توليد أفكار متعددة القنوات للحملات التوعوية، الأنشطة الطلابية، مقاطع الريلز، أو مقابلات البث الصوتي بنقرة واحدة.</string>
+    <string name="generate_ideas_btn">توليد الأفكار</string>
+    <string name="selecting_idea_category">اختر الفئة</string>
+</resources>

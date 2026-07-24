@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.MyApplication" parent="android:Theme.DeviceDefault.NoActionBar" />
+
+    <!--
+        System splash screen theme (Android 12+ requires a windowSplashScreen configuration;
+        androidx.core.splashscreen backports the same behavior down to minSdk).
+        This theme is applied to MainActivity only until installSplashScreen() hands control
+        back to Theme.MyApplication once the Compose SplashScreen composable takes over.
+    -->
+    <style name="Theme.Pulse.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/pulse_splash_background</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_launcher_foreground</item>
+        <item name="postSplashScreenTheme">@style/Theme.MyApplication</item>
+    </style>
+</resources>

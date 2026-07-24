@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Covers context.filesDir/packages/* and context.filesDir/exports/* used by
+         GeneratedContentScreen, GeneratedContentViewModel, EventPackageEngine and
+         AIContentDetailsViewModel when exporting/sharing generated AI content. -->
+    <files-path name="internal_files" path="." />
+
+    <!-- Covers context.cacheDir/photo_*.jpg and context.cacheDir/video_*.mp4 used by
+         CameraCaptureScreen for freshly captured media. -->
+    <cache-path name="internal_cache" path="." />
+
+    <!-- Covers context.getExternalFilesDir(null) used by MediaRepository for imported media. -->
+    <external-files-path name="external_files" path="." />
+</paths>

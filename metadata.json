@@ -1,0 +1,6 @@
+{
+  "name": "Pulse",
+  "description": "Pulse is an AI-powered media assistant for institutional media centers.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

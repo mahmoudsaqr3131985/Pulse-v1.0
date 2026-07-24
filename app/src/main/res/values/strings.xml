@@ -1,0 +1,82 @@
+<resources>
+    <string name="app_name">Pulse</string>
+    <string name="app_preferences">Application Preferences</string>
+    <string name="theme">Theme</string>
+    <string name="theme_system">System Default</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+    <string name="language">Language</string>
+    <string name="language_system">System Default</string>
+    <string name="language_arabic">Arabic</string>
+    <string name="language_english">English</string>
+    
+    <string name="ai_context">AI Context</string>
+    <string name="view_context_summary">View Context Summary</string>
+    <string name="validate_context">Validate Context</string>
+    <string name="export_context">Export Context</string>
+    <string name="context_summary">Context Summary</string>
+    <string name="context_validation">Context Validation</string>
+    <string name="context_exported">Context exported successfully</string>
+    <string name="context_valid">AI Context is valid and ready for processing.</string>
+    <string name="context_invalid">AI Context validation failed.</string>
+
+    <!-- Phase 12 Strings -->
+    <string name="generate_ai_content">Generate AI Content</string>
+    <string name="generated_content_title">Generated Content</string>
+    <string name="generating_content">Generating Media Package...</string>
+    <string name="headline_title">Headline</string>
+    <string name="facebook_post_title">Facebook Post</string>
+    <string name="short_post_title">Short Post (X/Telegram)</string>
+    <string name="caption_title">Image Caption</string>
+    <string name="hashtags_title">Hashtags</string>
+    <string name="news_summary_title">Official News Summary</string>
+    <string name="voice_over_script_title">Voice-over Script</string>
+    <string name="copy_all">Copy All</string>
+    <string name="save_draft">Save Draft</string>
+    <string name="export_markdown">Export Markdown</string>
+    <string name="generate_again">Generate Again</string>
+    <string name="edit_content">Edit</string>
+    <string name="copy_single">Copy</string>
+    <string name="regenerate_section">Regenerate Section</string>
+    <string name="api_key_missing">Missing API Key in Workspace AI settings.</string>
+    <string name="provider_unavailable">Selected AI Provider is unavailable.</string>
+    <string name="internet_unavailable">Internet connection is unavailable.</string>
+    <string name="invalid_response">Received an invalid or empty response from AI.</string>
+    <string name="timeout_error">AI Request timed out. Please try again.</string>
+    <string name="save_changes">Save Changes</string>
+
+    <!-- Phase 13 Strings -->
+    <string name="media_center">Media Center</string>
+    <string name="ideas">Ideas</string>
+    <string name="content_details">Content Details</string>
+    <string name="search_hint">Search Events, Content, Ideas...</string>
+    <string name="favorites">Favorites</string>
+    <string name="all">All</string>
+    <string name="sort_by">Sort By</string>
+    <string name="sort_newest">Newest First</string>
+    <string name="sort_oldest">Oldest First</string>
+    <string name="sort_alphabetical">Alphabetical (A-Z)</string>
+    <string name="workspace_filter">Workspace Filter</string>
+    <string name="no_generated_content">No generated content found in the Media Center.</string>
+    <string name="duplicate">Duplicate</string>
+    <string name="delete">Delete</string>
+    <string name="reuse">Reuse</string>
+    <string name="share">Share</string>
+    <string name="export_format">Export Format</string>
+    <string name="export_success">Content exported successfully</string>
+    <string name="export_failed">Export failed</string>
+    <string name="backup_metadata">Backup Metadata Locally</string>
+    <string name="restore_metadata">Restore Metadata</string>
+    <string name="backup_success">Local backup created successfully</string>
+    <string name="backup_failed">Backup failed</string>
+    <string name="restore_success">Local backup restored successfully</string>
+    <string name="restore_failed">Restore failed: no valid backup found</string>
+    <string name="app_info">Application Information</string>
+    <string name="privacy_info">Privacy Information</string>
+    <string name="app_info_desc">Pulse v1.0 is an offline-first AI Media Assistant for institutions, coordinating workspace structures, event preparation, content generation, and Google Drive upload automation.</string>
+    <string name="privacy_info_desc">Pulse takes your privacy seriously. All data and AI contexts are processed offline and stored locally in a secure Room database. Network calls are only made to your designated AI Provider endpoint using your own API key.</string>
+    <string name="ideas_title">Smart Ideas Generator</string>
+    <string name="ideas_desc">Generate multi-channel ideas for campaigns, newsletters, short-form reels, or student activities in a single tap.</string>
+    <string name="generate_ideas_btn">Generate Ideas</string>
+    <string name="selecting_idea_category">Select Category</string>
+</resources>
