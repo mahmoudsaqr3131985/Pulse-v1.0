@@ -4,7 +4,7 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
-import androidx.core.splashscreen.installSplashScreen
+
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.Surface
 import androidx.compose.runtime.Composable
@@ -48,7 +48,7 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         // Must be called before super.onCreate() per androidx.core.splashscreen contract.
         // Handles the Android 12+ system splash screen and its pre-31 backport in one call.
-        installSplashScreen()
+        
         super.onCreate(savedInstanceState)
 
         // PulseApplication already calls this, but guard again here defensively: if a
